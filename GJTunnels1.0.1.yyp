@@ -55,6 +55,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_huntPlayer","path":"scripts/scr_huntPlayer/scr_huntPlayer.yy",},},
     {"id":{"name":"scr_inLight","path":"scripts/scr_inLight/scr_inLight.yy",},},
+    {"id":{"name":"scr_playerAnimationController","path":"scripts/scr_playerAnimationController/scr_playerAnimationController.yy",},},
     {"id":{"name":"scr_playerMovement","path":"scripts/scr_playerMovement/scr_playerMovement.yy",},},
     {"id":{"name":"sFloor","path":"sprites/sFloor/sFloor.yy",},},
     {"id":{"name":"sFloorTileSet","path":"sprites/sFloorTileSet/sFloorTileSet.yy",},},

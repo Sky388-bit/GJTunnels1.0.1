@@ -30,6 +30,7 @@
     {"name":"oTile","order":1,"path":"objects/oTile/oTile.yy",},
     {"name":"oWall","order":2,"path":"objects/oWall/oWall.yy",},
     {"name":"scr_inLight","order":2,"path":"scripts/scr_inLight/scr_inLight.yy",},
+    {"name":"scr_playerAnimationController","order":3,"path":"scripts/scr_playerAnimationController/scr_playerAnimationController.yy",},
     {"name":"scr_playerMovement","order":1,"path":"scripts/scr_playerMovement/scr_playerMovement.yy",},
     {"name":"sFloor","order":2,"path":"sprites/sFloor/sFloor.yy",},
     {"name":"sPlayerDownIdle","order":6,"path":"sprites/sPlayerDownIdle/sPlayerDownIdle.yy",},
