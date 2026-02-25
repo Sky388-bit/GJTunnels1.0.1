@@ -1,0 +1,1 @@
+monterDirection = point_direction(oPlayer.x, oPlayer.y, x, y)
