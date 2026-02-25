@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayerSheet",
-    "path":"sprites/sPlayerSheet/sPlayerSheet.yy",
+    "name":"sPlayerDownIdle",
+    "path":"sprites/sPlayerDownIdle/sPlayerDownIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
