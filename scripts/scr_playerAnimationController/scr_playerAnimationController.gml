@@ -60,4 +60,5 @@ function scr_playerAnimationController(){
 				sprite_index = sPlayerRightUpIdle
 			}
 		}
+	}
 }
