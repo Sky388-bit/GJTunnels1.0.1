@@ -33,8 +33,8 @@ if (instance_exists(p) && p.flashlightOn) {
 
     var dir = point_direction(p.x, p.y, mouse_x, mouse_y);
 
-    var cone_angle = 60;
-    var max_length = 300;
+    var cone_angle = 90;
+    var max_length = 400;
 
     var rays = 25; // 🔥 smoothness (higher = smoother)
 
@@ -50,9 +50,9 @@ if (instance_exists(p) && p.flashlightOn) {
         var len = lerp(20, max_length, eased);
 
         // Smooth fade curve (not linear = more natural light falloff)
-        var alpha = (1 - eased) * 0.08;
+        var alpha = (1 - eased) * 0.05;//adjusts brightness
 
-        var spread = lerp(0, cone_angle * 0.5, eased);
+        var spread = lerp(0, cone_angle * 0.9, eased); //adjusts how much the beam spreads
 
         var a1 = dir - spread;
         var a2 = dir + spread;
@@ -79,6 +79,9 @@ if (instance_exists(p) && p.flashlightOn) {
     gpu_set_blendmode(bm_normal);
 }
 
+// IMPORTANT RESET (this is usually the bug)
+draw_set_alpha(1);
+gpu_set_blendmode(bm_subtract);
 // ---------------------
 // 🔥 CAMPFIRES
 // ---------------------
@@ -96,7 +99,7 @@ with (oCampfire) {
         var eased = t * t;
 
         var r = lerp(10, 70, eased) + flicker;
-        var alpha = (1 - eased) * 0.06;
+        var alpha = (1 - eased) * 0.1;
 
         draw_set_alpha(alpha);
         draw_circle(x, y, r, false);
