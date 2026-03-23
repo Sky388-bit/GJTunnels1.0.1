@@ -98,7 +98,7 @@ with (oCampfire) {
         var t = i / (rings - 1);
         var eased = t * t;
 
-        var r = lerp(10, 70, eased) + flicker;
+        var r = lerp(10, 120, eased) + flicker;
         var alpha = (1 - eased) * 0.1;
 
         draw_set_alpha(alpha);
