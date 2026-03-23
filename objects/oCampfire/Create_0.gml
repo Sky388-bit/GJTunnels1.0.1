@@ -1,0 +1,1 @@
+flicker_timer = random(1000);

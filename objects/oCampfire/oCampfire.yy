@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oCommand",
+  "%Name":"oCampfire",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oCommand",
+  "name":"oCampfire",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Objects",
-    "path":"folders/Objects/Game Objects.yy",
+    "name":"In Game Objects",
+    "path":"folders/Objects/In Game Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sCampfire",
+    "path":"sprites/sCampfire/sCampfire.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

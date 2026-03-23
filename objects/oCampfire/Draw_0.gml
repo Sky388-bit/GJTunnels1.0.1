@@ -1,0 +1,1 @@
+draw_sprite(sCampfire, 0, x, y)

@@ -1,3 +1,4 @@
+/*
 // Camera info
 var cam = view_camera[0];
 var vx = camera_get_view_x(cam);
@@ -55,3 +56,4 @@ surface_reset_target();
 
 // Draw darkness overlay
 draw_surface(light_surf, vx, vy);
+*/
